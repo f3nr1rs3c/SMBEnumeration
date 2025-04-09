@@ -12,7 +12,7 @@ def clear_screen():
 def print_banner():
     f = Figlet(font='slant', width=200)
     print(Fore.CYAN + f.renderText('SMB Enumeration Kit') + Fore.RESET)
-    print(Fore.RED + "                         | - |  By : Fenrir - Cyber Security Specialist | - |              " + Fore.RESET)
+    print(Fore.RED + "                         | - |  By : Fenrir - Penetration Tester | - |              " + Fore.RESET)
 
 def print_menu():
     print("""
